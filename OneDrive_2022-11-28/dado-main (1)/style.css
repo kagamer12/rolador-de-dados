@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+body{
+    background-image: url(tabuleiro.png);
+    background-size: cover;
+}
+.imagens img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+.botaodado{
+    text-align: center;
+
+}
+#pes , h1 , p ,a{
+    color: rgb(198, 255, 64);
+}
+#result{
+    color: rgb(198, 255, 64);
+}
+
+#quantidade_de_dados, #Modificador{
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: black ;
+}
+body {
+    font-family: sans-serif;
+    background-color: #81d4fa;
+    font-weight: bold;
+}
+#botao{
+    border-radius: 10px;
+    background-color: rgb(198, 255, 64);
+
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    margin: 60px;
+  }

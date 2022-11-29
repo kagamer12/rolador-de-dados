@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você tem dado em casa?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="dado.png">
+</head>
+<body>
+    <body>
+        <p>Resultado</p>
+        <div id="outputDiceBox">Resultados apareceram aqui.</div>
+        <div id="outputTotalBox"></div>
+        <br></br>
+        <div class="imagens">
+        <img src="d4.png" alt="" srcset="">
+        <img src="d6.png" alt="" srcset="">
+        <img src="d8.png" alt="" srcset="">
+        <img src="d10.png" alt="" srcset="">
+        <img src="d12.png" alt="" srcset="">
+        <img src="d20.png" alt="" srcset="">
+        <img src="d100.png" alt="" srcset="">
+    </div>
+    <div class="botao">
+        <button onclick="die(4)" id="botao">1d4</button>
+        <button onclick="die(6)"id="botao">1d6</button>
+        <button onclick="die(8)"id="botao">1d8</button>
+        <button onclick="die(10)"id="botao">1d10</button>
+        <button onclick="die(12)"id="botao">1d12</button>
+        <button onclick="die(20)"id="botao">1d20</button>
+        <button onclick="die(100)"id="botao">1d100</button>
+    </div>
+    <br></br>
+        <div id="history"></div>
+    
+        <script src="matemáquina.js"></script>
+    </body>
+</script>
+</body>
+</html>
